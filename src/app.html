@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	%sveltekit.head%
+	<style>
+		:root {
+			--gh-dark-bg: #0d1117;
+			--gh-secondary: #161b22;
+			--gh-tertiary: #21262d;
+			--gh-border: #30363d;
+			--gh-text: #c9d1d9;
+			--gh-muted: #8b949e;
+			--gh-success: #3fb950;
+			--gh-success-dark: #238636;
+			--gh-warning: #d29922;
+			--gh-info: #1f6feb;
+			--gh-info-light: #58a6ff;
+			--gh-error: #f85149;
+			--gh-error-dark: #da3633;
+		}
+
+		body {
+			background-color: var(--gh-dark-bg);
+			color: var(--gh-text);
+		}
+	</style>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div>%sveltekit.body%</div>
+</body>
+
+</html>
